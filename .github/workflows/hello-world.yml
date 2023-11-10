@@ -1,9 +1,10 @@
 name: hello world
 on: 
   push: 
-    brand: [main]
+    branches:
+      - main
 jobs: 
   say-hello: 
     runs-on: windows-latest
     steps: 
-      -run: echo Hello World
+      - run: echo Hello World
