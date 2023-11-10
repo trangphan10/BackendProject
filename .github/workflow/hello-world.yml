@@ -4,6 +4,6 @@ on:
     brand: [main]
 jobs: 
   say-hello: 
-    runs-on: windows
+    runs-on: windows-latest
     steps: 
       -run: echo Hello World
